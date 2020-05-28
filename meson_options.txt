@@ -1,0 +1,7 @@
+option('with-tls', type : 'boolean', value : true, description : 'Include SSL/TLS support')
+option('with-tls-psk', type : 'boolean', value : true, description : 'Include TLS-PSK support')
+option('with-ec', type : 'boolean', value : true, description : 'Include Elliptic Curve support')
+option('with-socks', type : 'boolean', value : true, description : 'Include SOCKS5 support')
+option('with-srv', type : 'boolean', value : false, description : 'Include SRV lookup support')
+option('with-threading', type : 'boolean', value : true, description : 'Include client library threading support')
+option('with-dlt', type : 'boolean', value : false, description : 'Include DLT support')

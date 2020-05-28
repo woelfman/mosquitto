@@ -1,0 +1,10 @@
+[wrap-file]
+directory = mosquitto-1.6.9
+
+source_url = https://github.com/eclipse/mosquitto/archive/v1.6.9.tar.gz
+source_filename = mosquitto-1.6.9.tar.gz
+source_hash = 6685d6e1d56e0618595c8fcc4f7c595a175dac7a145418150a854781b0e046af
+
+patch_url = https://github.com/woelfman/mosquitto/releases/download/1.6.9-1/mosquitto-1.6.9-1-wrap.zip
+patch_filename = mosquitto-1.6.9-1-wrap.zip
+patch_hash = 7195a2d1067e5c63d868beceaf56e74a4aa76e5c6f784458a29ad051b67b0a01
